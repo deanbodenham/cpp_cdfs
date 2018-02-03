@@ -1,5 +1,9 @@
 # C++ implementations of t and chi-squared cdfs
 
+
+This code is taken from the R core code for computing the cdfs of the t- and chiq-squared distributions. All of the code was created by the R developers, was originally written in C, and there are minor modifications to port it to C++. Please note that there is no warranty for the code! A minimal example suggests it gives the same answers as the Boost library.
+
+
  * Using the R code code.
  * Compared to Boost implementation
 
@@ -30,4 +34,5 @@ Please see `min_example.cpp` for usage of the `cdf_base.h` functions.
 
 Make the `.sh` files executable in order to run the example, tests, etc.
 
+Note that the `doctest.h` file used in the tests is from [https://github.com/onqtam/doctest](https://github.com/onqtam/doctest)
 
