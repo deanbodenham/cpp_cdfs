@@ -3,6 +3,18 @@
  * Using the R code code.
  * Compared to Boost implementation
 
+The key files are:
+ * `cdf_base.cpp`
+ * `cdf_base.h`
+
+Include those two files in your directory, and the line
+```
+#include "cdf_base.h"
+```
+
+Please see `min_example.cpp` for details.
+
+
 At the moment there is only a basic runtime check, but it seems computing the log of the p-value for the t-distribution cdf is an order of magnitude faster than the Boost computation of the 'raw' p-value.
 
  ```  
