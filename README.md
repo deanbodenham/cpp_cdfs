@@ -30,9 +30,13 @@ At the moment there is only a basic runtime check, but it seems computing the lo
  chisq: cdf_base duration log: 6e-06
  ```  
 
-Please see `min_example.cpp` for usage of the `cdf_base.h` functions.
+Please see `min_example.cpp` or `minmin_example.cpp` for usage of the `cdf_base.h` functions.
 
 Make the `.sh` files executable in order to run the example, tests, etc.
+```
+chmod a+x run_minmin_example.sh
+./run_minmin_example.sh
+```
 
 Note that the `doctest.h` file used in the tests is from [https://github.com/onqtam/doctest](https://github.com/onqtam/doctest)
 
