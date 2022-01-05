@@ -1,4 +1,4 @@
-# cppcdfs: Cumulative Distribution Functions in C++
+# cpp\_cdfs: Cumulative Distribution Functions in C++
 
 This repository contains code for cumulative distribution functions (cdfs)
 of various probability distributions. **Almost all of the code is from the
